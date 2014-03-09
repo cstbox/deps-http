@@ -3,7 +3,7 @@ Version: 1.0
 Section: base
 Priority: optional
 Architecture: all
-Depends: python (>=2.7), python (<<3), python-pypi
+Depends: python (>=2.7), python (<<3), python-pip
 Maintainer: Eric Pascual <eric.pascual@cstb.fr>
 Description: CSTBox HTTP related external dependencies.
  This package takes care of installing external dependencies for HTTP based CSTBox
