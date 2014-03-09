@@ -9,7 +9,7 @@ It includes the following Python packages :
  - tornado ([http://www.tornadoweb.org](http://www.tornadoweb.org))
  - tornadobabel ([http://tornado-babel.readthedocs.org]((http://tornado-babel.readthedocs.org))
 
-*CAUTION*
+## CAUTION
 
 Since it will trigger the installation of complementary Python packages, it is strongly 
 advised to work in a virtual environment in order not to wreck your current Python setup.
