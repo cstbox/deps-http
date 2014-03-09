@@ -1,0 +1,15 @@
+Package: cstbox-deps-http
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: python (>=2.7), python (<<3), python-pypi
+Maintainer: Eric Pascual <eric.pascual@cstb.fr>
+Description: CSTBox HTTP related external dependencies.
+ This package takes care of installing external dependencies for HTTP based CSTBox
+ services (f.i. ext-webui).
+ .
+ This includes :
+ - babel (https://pypi.python.org/pypi/Babel)
+ - tornado (http://www.tornadoweb.org)
+ - tornadobabel (http://tornado-babel.readthedocs.org)

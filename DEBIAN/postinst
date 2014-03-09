@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Python Babel installation
+pip install Babel
+
+# Tornado installation
+pip install tornado
+
+# Tornado-Babel installation
+pip install Tornado-Babel
