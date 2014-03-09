@@ -9,9 +9,14 @@ It includes the following Python packages :
  - tornado ([http://www.tornadoweb.org](http://www.tornadoweb.org))
  - tornadobabel ([http://tornado-babel.readthedocs.org]((http://tornado-babel.readthedocs.org))
 
-## CAUTION
+**CAUTION**
 
 Since it will trigger the installation of complementary Python packages, it is strongly 
 advised to work in a virtual environment in order not to wreck your current Python setup.
 
 You have been warned ;)
+
+## Dependencies
+
+You will need to have `pip` installed on the target system (see
+[https://pypi.python.org/pypi/pip)(https://pypi.python.org/pypi/pip) for more info).
