@@ -19,4 +19,4 @@ You have been warned ;)
 ## Dependencies
 
 You will need to have `pip` installed on the target system (see
-[https://pypi.python.org/pypi/pip)(https://pypi.python.org/pypi/pip) for more info).
+[https://pypi.python.org/pypi/pip](https://pypi.python.org/pypi/pip) for more info).
