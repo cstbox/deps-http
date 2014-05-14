@@ -9,14 +9,12 @@ It includes the following Python packages :
  - tornado ([http://www.tornadoweb.org](http://www.tornadoweb.org))
  - tornadobabel ([http://tornado-babel.readthedocs.org]((http://tornado-babel.readthedocs.org))
 
-**CAUTION**
+The current version embeds the packages and is no more based on installing the dependencies
+using pip.
 
-Since it will trigger the installation of complementary Python packages, it is strongly 
-advised to work in a virtual environment in order not to wreck your current Python setup.
-
-You have been warned ;)
-
-## Dependencies
-
-You will need to have `pip` installed on the target system (see
-[https://pypi.python.org/pypi/pip](https://pypi.python.org/pypi/pip) for more info).
+This has been changed so for several reasons:
+  - no more need to install pip and related dependancies (when installing it the easy way,
+  pip wants you to install Python 2.6 too :/)
+  - it freezes the version of the dependencies and avoid bad surprises
+  - it installs dependencies **inside** CSTBox framework realm, and does not modify the
+  system wide installation. This way, no more need to use a virtual environment.
